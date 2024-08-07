@@ -42,6 +42,7 @@ const Slider = ({ url, limit = 5, page = 1 }) => {
   const handleNext = () => {
     setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
   };
+  
   return (
     <>
       <div className="flex justify-center items-center relative w-[600px] h-[400px] m-8">
