@@ -11,7 +11,9 @@ function App() {
         {/*  <Accord /> */}
         {/* <Random /> */}
         {/*  <Rate/> */}
-        <Slider url={"https://picsum.photos/v2/list"} limit={"10"} page={"1"} />
+        {/* <Slider url={"https://picsum.photos/v2/list"} limit={"10"} page={"1"} /> */}
+        {/* project four : infinit loading */}
+        
       </div>
     </>
   );
